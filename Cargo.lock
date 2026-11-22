@@ -21,7 +21,7 @@ checksum = "366ffbaa4442f4684d91e2cd7c5ea7c4ed8add41959a31447066e279e432b618"
 [[package]]
 name = "accesskit"
 version = "0.25.1"
-source = "git+https://github.com/mockydevs/accesskit?rev=a116d6c23b044566f2e1e4f6d640ac3c4005c57c#a116d6c23b044566f2e1e4f6d640ac3c4005c57c"
+source = "git+https://github.com/Minuit-Ferina/accesskit?rev=c1db9954a14db195ca42518c86ece6e32a8b753e#c1db9954a14db195ca42518c86ece6e32a8b753e"
 dependencies = [
  "enumn",
  "serde",
@@ -31,7 +31,7 @@ dependencies = [
 [[package]]
 name = "accesskit_atspi_common"
 version = "0.21.0"
-source = "git+https://github.com/mockydevs/accesskit?rev=a116d6c23b044566f2e1e4f6d640ac3c4005c57c#a116d6c23b044566f2e1e4f6d640ac3c4005c57c"
+source = "git+https://github.com/Minuit-Ferina/accesskit?rev=c1db9954a14db195ca42518c86ece6e32a8b753e#c1db9954a14db195ca42518c86ece6e32a8b753e"
 dependencies = [
  "accesskit",
  "accesskit_consumer",
@@ -44,7 +44,7 @@ dependencies = [
 [[package]]
 name = "accesskit_consumer"
 version = "0.39.1"
-source = "git+https://github.com/mockydevs/accesskit?rev=a116d6c23b044566f2e1e4f6d640ac3c4005c57c#a116d6c23b044566f2e1e4f6d640ac3c4005c57c"
+source = "git+https://github.com/Minuit-Ferina/accesskit?rev=c1db9954a14db195ca42518c86ece6e32a8b753e#c1db9954a14db195ca42518c86ece6e32a8b753e"
 dependencies = [
  "accesskit",
  "hashbrown 0.17.1",
@@ -53,7 +53,7 @@ dependencies = [
 [[package]]
 name = "accesskit_ios"
 version = "0.2.1"
-source = "git+https://github.com/mockydevs/accesskit?rev=a116d6c23b044566f2e1e4f6d640ac3c4005c57c#a116d6c23b044566f2e1e4f6d640ac3c4005c57c"
+source = "git+https://github.com/Minuit-Ferina/accesskit?rev=c1db9954a14db195ca42518c86ece6e32a8b753e#c1db9954a14db195ca42518c86ece6e32a8b753e"
 dependencies = [
  "accesskit",
  "accesskit_consumer",
@@ -66,7 +66,7 @@ dependencies = [
 [[package]]
 name = "accesskit_macos"
 version = "0.27.1"
-source = "git+https://github.com/mockydevs/accesskit?rev=a116d6c23b044566f2e1e4f6d640ac3c4005c57c#a116d6c23b044566f2e1e4f6d640ac3c4005c57c"
+source = "git+https://github.com/Minuit-Ferina/accesskit?rev=c1db9954a14db195ca42518c86ece6e32a8b753e#c1db9954a14db195ca42518c86ece6e32a8b753e"
 dependencies = [
  "accesskit",
  "accesskit_consumer",
@@ -79,7 +79,7 @@ dependencies = [
 [[package]]
 name = "accesskit_unix"
 version = "0.24.0"
-source = "git+https://github.com/mockydevs/accesskit?rev=a116d6c23b044566f2e1e4f6d640ac3c4005c57c#a116d6c23b044566f2e1e4f6d640ac3c4005c57c"
+source = "git+https://github.com/Minuit-Ferina/accesskit?rev=c1db9954a14db195ca42518c86ece6e32a8b753e#c1db9954a14db195ca42518c86ece6e32a8b753e"
 dependencies = [
  "accesskit",
  "accesskit_atspi_common",
@@ -96,7 +96,7 @@ dependencies = [
 [[package]]
 name = "accesskit_windows"
 version = "0.35.1"
-source = "git+https://github.com/mockydevs/accesskit?rev=a116d6c23b044566f2e1e4f6d640ac3c4005c57c#a116d6c23b044566f2e1e4f6d640ac3c4005c57c"
+source = "git+https://github.com/Minuit-Ferina/accesskit?rev=c1db9954a14db195ca42518c86ece6e32a8b753e#c1db9954a14db195ca42518c86ece6e32a8b753e"
 dependencies = [
  "accesskit",
  "accesskit_consumer",
@@ -109,7 +109,7 @@ dependencies = [
 [[package]]
 name = "accesskit_winit"
 version = "0.34.1"
-source = "git+https://github.com/mockydevs/accesskit?rev=a116d6c23b044566f2e1e4f6d640ac3c4005c57c#a116d6c23b044566f2e1e4f6d640ac3c4005c57c"
+source = "git+https://github.com/Minuit-Ferina/accesskit?rev=c1db9954a14db195ca42518c86ece6e32a8b753e#c1db9954a14db195ca42518c86ece6e32a8b753e"
 dependencies = [
  "accesskit",
  "accesskit_ios",
@@ -1231,7 +1231,7 @@ checksum = "75b325c5dbd37f80359721ad39aca5a29fb04c89279657cffdda8736d0c0b9d2"
 [[package]]
 name = "dpi"
 version = "0.1.2"
-source = "git+https://github.com/mockydevs/winit?rev=4c38d2fe338245fb7a20602466cab94973313792#4c38d2fe338245fb7a20602466cab94973313792"
+source = "git+https://github.com/Minuit-Ferina/winit?rev=4a86bef75c12523283ec06134b5de15a563a009b#4a86bef75c12523283ec06134b5de15a563a009b"
 
 [[package]]
 name = "ecolor"
@@ -2058,14 +2058,14 @@ dependencies = [
 [[package]]
 name = "glutin"
 version = "0.32.3"
-source = "git+https://github.com/mockydevs/glutin?rev=4afe28190f25c8f040d64eee7f245459adff6e0c#4afe28190f25c8f040d64eee7f245459adff6e0c"
+source = "git+https://github.com/Minuit-Ferina/glutin?rev=c0e72163adebd721b997405c23969f6439d857eb#c0e72163adebd721b997405c23969f6439d857eb"
 dependencies = [
  "bitflags 2.13.1",
  "cfg_aliases",
  "dispatch2",
  "glutin_egl_sys",
  "glutin_glx_sys",
- "glutin_wgl_sys 0.6.1 (git+https://github.com/mockydevs/glutin?rev=4afe28190f25c8f040d64eee7f245459adff6e0c)",
+ "glutin_wgl_sys 0.6.1 (git+https://github.com/Minuit-Ferina/glutin?rev=c0e72163adebd721b997405c23969f6439d857eb)",
  "libloading",
  "objc2 0.6.5",
  "objc2-app-kit 0.3.2",
@@ -2082,7 +2082,7 @@ dependencies = [
 [[package]]
 name = "glutin-winit"
 version = "0.5.0"
-source = "git+https://github.com/mockydevs/glutin?rev=4afe28190f25c8f040d64eee7f245459adff6e0c#4afe28190f25c8f040d64eee7f245459adff6e0c"
+source = "git+https://github.com/Minuit-Ferina/glutin?rev=c0e72163adebd721b997405c23969f6439d857eb#c0e72163adebd721b997405c23969f6439d857eb"
 dependencies = [
  "cfg_aliases",
  "glutin",
@@ -2093,7 +2093,7 @@ dependencies = [
 [[package]]
 name = "glutin_egl_sys"
 version = "0.7.1"
-source = "git+https://github.com/mockydevs/glutin?rev=4afe28190f25c8f040d64eee7f245459adff6e0c#4afe28190f25c8f040d64eee7f245459adff6e0c"
+source = "git+https://github.com/Minuit-Ferina/glutin?rev=c0e72163adebd721b997405c23969f6439d857eb#c0e72163adebd721b997405c23969f6439d857eb"
 dependencies = [
  "gl_generator",
  "windows-sys 0.52.0",
@@ -2102,7 +2102,7 @@ dependencies = [
 [[package]]
 name = "glutin_glx_sys"
 version = "0.6.1"
-source = "git+https://github.com/mockydevs/glutin?rev=4afe28190f25c8f040d64eee7f245459adff6e0c#4afe28190f25c8f040d64eee7f245459adff6e0c"
+source = "git+https://github.com/Minuit-Ferina/glutin?rev=c0e72163adebd721b997405c23969f6439d857eb#c0e72163adebd721b997405c23969f6439d857eb"
 dependencies = [
  "gl_generator",
  "x11-dl",
@@ -2120,7 +2120,7 @@ dependencies = [
 [[package]]
 name = "glutin_wgl_sys"
 version = "0.6.1"
-source = "git+https://github.com/mockydevs/glutin?rev=4afe28190f25c8f040d64eee7f245459adff6e0c#4afe28190f25c8f040d64eee7f245459adff6e0c"
+source = "git+https://github.com/Minuit-Ferina/glutin?rev=c0e72163adebd721b997405c23969f6439d857eb#c0e72163adebd721b997405c23969f6439d857eb"
 dependencies = [
  "gl_generator",
 ]
@@ -6055,8 +6055,8 @@ checksum = "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec"
 
 [[package]]
 name = "winit"
-version = "0.31.0-beta.3"
-source = "git+https://github.com/mockydevs/winit?rev=4c38d2fe338245fb7a20602466cab94973313792#4c38d2fe338245fb7a20602466cab94973313792"
+version = "0.31.0-beta.4"
+source = "git+https://github.com/Minuit-Ferina/winit?rev=4a86bef75c12523283ec06134b5de15a563a009b#4a86bef75c12523283ec06134b5de15a563a009b"
 dependencies = [
  "bitflags 2.13.1",
  "cfg_aliases",
@@ -6081,8 +6081,8 @@ dependencies = [
 
 [[package]]
 name = "winit-android"
-version = "0.31.0-beta.3"
-source = "git+https://github.com/mockydevs/winit?rev=4c38d2fe338245fb7a20602466cab94973313792#4c38d2fe338245fb7a20602466cab94973313792"
+version = "0.31.0-beta.4"
+source = "git+https://github.com/Minuit-Ferina/winit?rev=4a86bef75c12523283ec06134b5de15a563a009b#4a86bef75c12523283ec06134b5de15a563a009b"
 dependencies = [
  "android-activity",
  "bitflags 2.13.1",
@@ -6096,8 +6096,8 @@ dependencies = [
 
 [[package]]
 name = "winit-appkit"
-version = "0.31.0-beta.3"
-source = "git+https://github.com/mockydevs/winit?rev=4c38d2fe338245fb7a20602466cab94973313792#4c38d2fe338245fb7a20602466cab94973313792"
+version = "0.31.0-beta.4"
+source = "git+https://github.com/Minuit-Ferina/winit?rev=4a86bef75c12523283ec06134b5de15a563a009b#4a86bef75c12523283ec06134b5de15a563a009b"
 dependencies = [
  "bitflags 2.13.1",
  "block2 0.6.2",
@@ -6118,8 +6118,8 @@ dependencies = [
 
 [[package]]
 name = "winit-common"
-version = "0.31.0-beta.3"
-source = "git+https://github.com/mockydevs/winit?rev=4c38d2fe338245fb7a20602466cab94973313792#4c38d2fe338245fb7a20602466cab94973313792"
+version = "0.31.0-beta.4"
+source = "git+https://github.com/Minuit-Ferina/winit?rev=4a86bef75c12523283ec06134b5de15a563a009b#4a86bef75c12523283ec06134b5de15a563a009b"
 dependencies = [
  "block2 0.6.2",
  "dpi",
@@ -6136,8 +6136,8 @@ dependencies = [
 
 [[package]]
 name = "winit-core"
-version = "0.31.0-beta.3"
-source = "git+https://github.com/mockydevs/winit?rev=4c38d2fe338245fb7a20602466cab94973313792#4c38d2fe338245fb7a20602466cab94973313792"
+version = "0.31.0-beta.4"
+source = "git+https://github.com/Minuit-Ferina/winit?rev=4a86bef75c12523283ec06134b5de15a563a009b#4a86bef75c12523283ec06134b5de15a563a009b"
 dependencies = [
  "bitflags 2.13.1",
  "cursor-icon",
@@ -6150,8 +6150,8 @@ dependencies = [
 
 [[package]]
 name = "winit-orbital"
-version = "0.31.0-beta.3"
-source = "git+https://github.com/mockydevs/winit?rev=4c38d2fe338245fb7a20602466cab94973313792#4c38d2fe338245fb7a20602466cab94973313792"
+version = "0.31.0-beta.4"
+source = "git+https://github.com/Minuit-Ferina/winit?rev=4a86bef75c12523283ec06134b5de15a563a009b#4a86bef75c12523283ec06134b5de15a563a009b"
 dependencies = [
  "bitflags 2.13.1",
  "dpi",
@@ -6166,8 +6166,8 @@ dependencies = [
 
 [[package]]
 name = "winit-uikit"
-version = "0.31.0-beta.3"
-source = "git+https://github.com/mockydevs/winit?rev=4c38d2fe338245fb7a20602466cab94973313792#4c38d2fe338245fb7a20602466cab94973313792"
+version = "0.31.0-beta.4"
+source = "git+https://github.com/Minuit-Ferina/winit?rev=4a86bef75c12523283ec06134b5de15a563a009b#4a86bef75c12523283ec06134b5de15a563a009b"
 dependencies = [
  "bitflags 2.13.1",
  "block2 0.6.2",
@@ -6186,8 +6186,8 @@ dependencies = [
 
 [[package]]
 name = "winit-wayland"
-version = "0.31.0-beta.3"
-source = "git+https://github.com/mockydevs/winit?rev=4c38d2fe338245fb7a20602466cab94973313792#4c38d2fe338245fb7a20602466cab94973313792"
+version = "0.31.0-beta.4"
+source = "git+https://github.com/Minuit-Ferina/winit?rev=4a86bef75c12523283ec06134b5de15a563a009b#4a86bef75c12523283ec06134b5de15a563a009b"
 dependencies = [
  "bitflags 2.13.1",
  "calloop 0.14.5",
@@ -6216,8 +6216,8 @@ dependencies = [
 
 [[package]]
 name = "winit-web"
-version = "0.31.0-beta.3"
-source = "git+https://github.com/mockydevs/winit?rev=4c38d2fe338245fb7a20602466cab94973313792#4c38d2fe338245fb7a20602466cab94973313792"
+version = "0.31.0-beta.4"
+source = "git+https://github.com/Minuit-Ferina/winit?rev=4a86bef75c12523283ec06134b5de15a563a009b#4a86bef75c12523283ec06134b5de15a563a009b"
 dependencies = [
  "atomic-waker",
  "bitflags 2.13.1",
@@ -6238,8 +6238,8 @@ dependencies = [
 
 [[package]]
 name = "winit-win32"
-version = "0.31.0-beta.3"
-source = "git+https://github.com/mockydevs/winit?rev=4c38d2fe338245fb7a20602466cab94973313792#4c38d2fe338245fb7a20602466cab94973313792"
+version = "0.31.0-beta.4"
+source = "git+https://github.com/Minuit-Ferina/winit?rev=4a86bef75c12523283ec06134b5de15a563a009b#4a86bef75c12523283ec06134b5de15a563a009b"
 dependencies = [
  "bitflags 2.13.1",
  "cursor-icon",
@@ -6256,8 +6256,8 @@ dependencies = [
 
 [[package]]
 name = "winit-x11"
-version = "0.31.0-beta.3"
-source = "git+https://github.com/mockydevs/winit?rev=4c38d2fe338245fb7a20602466cab94973313792#4c38d2fe338245fb7a20602466cab94973313792"
+version = "0.31.0-beta.4"
+source = "git+https://github.com/Minuit-Ferina/winit?rev=4a86bef75c12523283ec06134b5de15a563a009b#4a86bef75c12523283ec06134b5de15a563a009b"
 dependencies = [
  "bitflags 2.13.1",
  "bytemuck",
